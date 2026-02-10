@@ -19,15 +19,15 @@ public class Marks_Grade_Evaluation {
 
             {
                 Scanner Grade = new Scanner(System.in);
-            float Grade = input.nextFloat();
+                float Grade = input.nextFloat();
 
-            if (Grade >= 90 && Grade <= 100) {
-                System.out.print("Your Grades: A+");
+                if (Grade >= 90 && Grade <= 100) {
+                    System.out.print("Your Grades: A+");
 
 
-
-            } else if (Grade >= 80 && Grade <= 89) {
-                System.out.print("Your Grades: A ");
+                } else if (Grade >= 80 && Grade <= 89) {
+                    System.out.print("Your Grades: A ");
+                }
             }
         }
     }
