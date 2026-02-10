@@ -22,6 +22,6 @@ public class Marks_Grade_Evaluation {
         }
 
         else if (Grade >=80 && Grade <= 89) {
-            System.out.print("Your Grades: F-, Excellent ");
+            System.out.print("Your Grades: A, Excellent ");
     }
 }
