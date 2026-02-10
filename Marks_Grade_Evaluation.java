@@ -41,8 +41,7 @@ public class Marks_Grade_Evaluation {
         } else {
             System.out.println("F");
         }
-
-        System.out.println(studentName + " scored " + grade + " marks and secured grade ".");
+        System.out.println(studentName + " scored " + grade + " marks and secured grade .");
 
 
         input.close();
