@@ -42,7 +42,7 @@ public class Marks_Grade_Evaluation {
             System.out.println("F");
         }
 
-        System.out.println(studentName + "Scored" + grade "with" + "marks" );
+        System.out.println(studentName + "Scored" + grade + "with" + "marks" );
 
         input.close();
     }
