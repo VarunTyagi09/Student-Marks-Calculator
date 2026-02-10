@@ -16,13 +16,12 @@ public class Marks_Grade_Evaluation {
             float Grade = input.nextFloat();
             if (Grade >= 0 && Grade <= 100) break;
             System.out.print(" Invalid! Enter Correct marks again (0-100): ");
-        }
 
-        {if (Grade = 100);
+        if (Grade = 100){
             System.out.print("Your Grades: A+, Excellent ");
         }
 
-        if (Grade = 0) ;
-        System.out.print("Your Grades: F-, Excellent ");
+        else if (Grade >30) {
+            System.out.print("Your Grades: F-, Excellent ");
     }
 }
