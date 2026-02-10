@@ -18,5 +18,5 @@ public class Marks_Grade_Evaluation {
             System.out.print(" Invalid! Enter Correct marks again (0-100): ");
 
         }
-
+    }
 }
