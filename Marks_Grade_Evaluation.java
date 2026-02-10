@@ -5,13 +5,13 @@ public class Marks_Grade_Evaluation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter Student Name");
+        System.out.print("Enter Student Name: ");
         String studentName = input.nextLine();
 
-        System.out.println("Enter Roll Number");
+        System.out.print("Enter Roll Number: ");
         int RollNo = input.nextInt();
 
-        System.out.println("Enter Your Grades");
+        System.out.print("Enter Your Grades: ");
         float Grade = input.nextFloat();
 
 
