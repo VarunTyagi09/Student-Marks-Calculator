@@ -16,7 +16,7 @@ public class Marks_Grade_Evaluation {
 
         while (true) {
             System.out.print("Enter Marks (0-100): ");
-            float grade = input.nextFloat();
+             grade = input.nextFloat();
 
             if (grade >= 0 && grade <= 100) {
                 break;
